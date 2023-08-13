@@ -28,6 +28,6 @@ public class Employee : IComparable
 
         var other = obj as Employee;
 
-        return Name.CompareTo(other.Name);
+        return Name!.CompareTo(other!.Name);
     }
 }

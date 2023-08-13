@@ -1,6 +1,6 @@
 ﻿var path = @"c:\temp\in.txt";
 
-StreamReader sr = null;
+StreamReader? sr = null;
 
 try
 {
